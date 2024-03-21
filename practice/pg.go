@@ -3,9 +3,23 @@ package main
 import "fmt"
 
 func main() {
-	// Knowing how to separate arguments in function calls fix
-	// the following line so that it prints "go 2 true"
-	var number int = 2
-	var isLoggedIn bool = true
-	fmt.Println("go", number, isLoggedIn)
+	//fmt.Println("Hello, World!")
+
+	// var a int = 10
+	// var b int = 15
+	// var sum int = a + b
+
+	// fmt.Printf("The sum of two numbers are and type is %T \n ", sum)
+
+	var num int
+
+	fmt.Println("Enter a number:- ")
+	fmt.Scanln(&num)
+
+	if num%2 == 0 {
+		fmt.Println("The entered number", num, "is a Even number")
+	} else {
+		fmt.Println("The entered number is a Odd Number")
+	}
+
 }
