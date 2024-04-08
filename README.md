@@ -1,4 +1,4 @@
-# Go Documentation
+## Go Documentation
 
 1. Introduction to Go
    + What is Go?
