@@ -19,4 +19,8 @@ func main() {
 	fmt.Println("Thanks for rating, ", input)
 	fmt.Printf("Type of this rating is %T, ", input)
 
+	//scanf c type input
+	var i int
+	_, err := scanf("%d", &i);
+
 }
