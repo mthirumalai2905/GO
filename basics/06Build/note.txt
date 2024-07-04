@@ -1,0 +1,6 @@
+You can create a standalone programs for specific OS itself
+
+-> open terminal say " go env "
+-> GOOS = "windows" go build
+-> GOOS = "darwin" go build
+-> GOOS = "linux" go build
